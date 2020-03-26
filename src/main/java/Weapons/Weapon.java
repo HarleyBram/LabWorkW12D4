@@ -1,3 +1,5 @@
+package Weapons;
+
 import Behaviours.IWeapon;
 import Enemys.Enemy;
 
@@ -16,10 +18,9 @@ public abstract class Weapon implements IWeapon {
         this.damageValue = damageValue;
     }
 
-    public String attack(Enemy enemy){
-    //enemy check health point and remove damage value from health points
-        return "Test";
-
+    public String attack(){
+    // check health point and remove damage value from health points
+        return "Attack";
 
 
     };

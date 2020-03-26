@@ -1,6 +1,8 @@
 package Behaviours;
 
-public interface IWeapon<Enemy> {
+import Enemys.Enemy;
+
+public interface IWeapon {
 
     public String attack(Enemy enemy);
 
