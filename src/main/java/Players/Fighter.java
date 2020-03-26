@@ -1,13 +1,10 @@
-import Behaviours.IWeapon;
+package Players;
 
-public abstract class Fighter extends Player  {
+public abstract class Fighter extends Player {
 
-
-    protected Weapon weapon;
 
     public Fighter(String name, int healthPoints) {
         super(name, healthPoints);
-        this.weapon = new Weapon();
     }
 
     public void attack(){
