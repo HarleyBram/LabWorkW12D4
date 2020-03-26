@@ -8,6 +8,8 @@ public class Sword extends Weapon {
     }
 
     public String attack(Enemy enemy) {
+
+        enemy.takeDamage(damageValue);
         return "Stabbing with A Sword!!";
     }
 

@@ -18,8 +18,8 @@ public class SwordTest {
 
     @Test
     public void testAttackBySword(){
-        assertEquals("Stabbed By A Sword!!", sword.attack(orc));
-//        sword.attack()
+        sword.attack(orc);
+        assertEquals(4, orc.getHealthPoints());
     }
 
 }
